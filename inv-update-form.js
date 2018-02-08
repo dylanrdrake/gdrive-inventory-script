@@ -28,7 +28,7 @@ function getLastFlavorCol(invDataRange) {
 
 // Triggered by form submission
 function UpdateInventory(e) {
-  invSS = SpreadsheetApp.openById('1LhGIlUcTCeRekIpakHLgLmi86-Y18Bib21O8tU2Rv94');
+  invSS = SpreadsheetApp.openById('<inventory spreadsheet google drive id>');
   invSheet = invSS.getSheetByName('Inventory');
   prodSheet = invSS.getSheetByName('Production');
   logSheet = invSS.getSheetByName('Logs');
